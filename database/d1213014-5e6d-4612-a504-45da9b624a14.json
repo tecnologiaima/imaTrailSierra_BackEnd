@@ -1,0 +1,31 @@
+{
+    "session_id": "d1213014-5e6d-4612-a504-45da9b624a14",
+    "created_at": 1754355838.184412,
+    "messages": [
+        {
+            "sender": "model",
+            "text": "¡Bienvenido a nuestro chat! ¿Cómo puedo asistirte?",
+            "timestamp": 1754355838.184412
+        },
+        {
+            "sender": "user",
+            "text": "Me duele la cabeza desde hace dias, y me sangra la nariz, que puede ser?",
+            "timestamp": 1754355887.459407
+        },
+        {
+            "sender": "model",
+            "text": "Hola Guillermo. Entiendo que llevas días con dolor de cabeza y sangrado nasal.  Es importante que consultes a un médico lo antes posible para que te examine y determine la causa.\n\nSegún la información que me proporcionaste, el sangrado nasal es un síntoma clave de la **Hipertensión Arterial**.  También puede estar asociado a otras condiciones, como dolores de cabeza, y en algunos casos, incluso a problemas cardíacos.\n\nDado tu historial médico de depresión, hipotiroidismo y asma, es crucial que un médico evalúe tu estado general de salud para descartar cualquier conexión entre estas condiciones y tus síntomas actuales.\n\n**Te recomiendo que:**\n\n1.  **Consultes a un médico:**  Es la prioridad. Un médico podrá realizar un examen físico, tomar tus signos vitales (presión arterial, etc.) y solicitar pruebas adicionales si es necesario para determinar la causa de tus síntomas.\n2.  **Mide tu presión arterial:** Si tienes un tensiómetro en casa, mírala y anota los valores. Esto puede ser útil para el médico.\n3.  **No te automediques:**  No tomes ningún medicamento sin consultar a un médico.\n\n**Importante:**  No soy médico y esta información no sustituye el consejo médico profesional.  Es fundamental que consultes a un médico para obtener un diagnóstico y tratamiento adecuados.\n\nEspero que te sientas mejor pronto.\n",
+            "timestamp": 1754355887.459407
+        }
+    ],
+    "data": {
+        "name": "Guillermo",
+        "age": 30,
+        "gender": "Masculino",
+        "height": 172,
+        "weight": 70,
+        "medicalHistory": "Depresión, Hipotiroidismo, Asma",
+        "medications": "",
+        "allergies": ""
+    }
+}

@@ -1,0 +1,61 @@
+{
+    "session_id": "19c796b6-791c-4aa3-8230-41d9a3cfed61",
+    "created_at": 1754406391.690998,
+    "messages": [
+        {
+            "sender": "model",
+            "text": "¡Bienvenido a nuestro chat! ¿Cómo puedo asistirte?",
+            "timestamp": 1754406391.690999
+        },
+        {
+            "sender": "user",
+            "text": "Hola, tengo dolor de cabeza con fiebre?",
+            "timestamp": 1754406444.545233
+        },
+        {
+            "sender": "model",
+            "text": "Hola Joel,\n\nUn dolor de cabeza con fiebre podría ser un síntoma de varias condiciones, incluyendo una enfermedad cerebrovascular (ictus), aunque también podría ser algo más común como una infección.\n\nSegún la información que tengo, el dolor de cabeza severo y repentino sin causa conocida es un síntoma clave de una enfermedad cerebrovascular (ictus).  Sin embargo, también podría estar relacionado con otras condiciones.\n\n**Dado que tienes fiebre junto con el dolor de cabeza, es importante que consultes a un médico lo antes posible.**  Un médico podrá evaluar tus síntomas, realizar un examen físico y, si es necesario, solicitar pruebas para determinar la causa de tu dolor de cabeza y fiebre y brindarte el tratamiento adecuado.\n\n**No soy un médico y no puedo darte un diagnóstico.** Esta información es solo para fines informativos y no debe considerarse un consejo médico.\n\n**Por favor, busca atención médica de inmediato.**\n",
+            "timestamp": 1754406444.545234
+        },
+        {
+            "sender": "user",
+            "text": "Cuanto tiempo puedo estar asi?",
+            "timestamp": 1754407375.659181
+        },
+        {
+            "sender": "model",
+            "text": "Entiendo tu preocupación. El mensaje del modelo indica que un dolor de cabeza severo y repentino con fiebre podría ser un síntoma de una enfermedad cerebrovascular (ictus), lo cual requiere atención médica inmediata.\n\n**La respuesta a tu pregunta \"Cuánto tiempo puedo estar así?\" es: No puedo darte una respuesta precisa.**  La duración de un dolor de cabeza con fiebre puede variar mucho dependiendo de la causa.  \n\n**Lo más importante es que sigas la recomendación del modelo:**\n\n* **Busca atención médica de inmediato.**  No esperes.  Un médico necesita evaluar tu situación para determinar la causa del dolor de cabeza y fiebre y brindarte el tratamiento adecuado.\n\n**Es crucial que no te auto-mediques ni ignores los síntomas.**  Un ictus es una emergencia médica y el tiempo es esencial para minimizar el daño cerebral.\n\n**Recuerda:** Yo soy un modelo de lenguaje y no puedo dar consejos médicos. Esta información es solo para fines informativos y no debe considerarse un consejo médico.  **Por favor, busca atención médica de inmediato.**\n",
+            "timestamp": 1754407375.659183
+        },
+        {
+            "sender": "user",
+            "text": "Poner una animacion de espera mientras se espera la respuesta?",
+            "timestamp": 1754407580.185738
+        },
+        {
+            "sender": "model",
+            "text": "```html\n<!DOCTYPE html>\n<html>\n<head>\n<title>Animación de Espera</title>\n<style>\n  .loading-animation {\n    display: none;\n    margin-left: auto;\n    margin-right: auto;\n    width: 50px;\n    height: 50px;\n    animation: spin 1s linear infinite;\n  }\n\n  @keyframes spin {\n    0% { transform: rotate(0deg); }\n    100% { transform: rotate(360deg); }\n  }\n</style>\n</head>\n<body>\n\n<!-- El contenido principal de tu chat aquí -->\n<div id=\"chat-history\">\n  <!--  Aquí irían los mensajes del chat -->\n  <p>¡Bienvenid a nuestro chat! ¿Cómo puedo asistirte?</p>\n  <p>Hola, tengo doloor de cabeza con fiebre?</p>\n  <p>Hola Joel, ...</p>\n  <p>Cuanto tiempo puedo estar asi?</p>\n  <p>Entiendo tu preocupación. ...</p>\n</div>\n\n<div class=\"loading-animation\"></div>\n\n<script>\n  // Simulación de tiempo de espera (reemplazar con tu lógica real)\n  setTimeout(function() {\n    // Mostrar la animación de espera\n    document.querySelector('.loading-animation').style.display = 'block';\n\n    // Simular un retraso de 3-5 segundos\n    setTimeout(function() {\n      // Ocultar la animación de espera\n      document.querySelector('.loading-animation').style.display = 'none';\n      // Aquí iría el siguiente mensaje del modelo\n      document.getElementById('chat-history').innerHTML += \"<p>Hola Joel, ...</p>\";\n    }, 3000); // 3 segundos\n  }, 1000); // 1 segundo (para mostrar la animación de espera)\n</script>\n\n</body>\n</html>\n```\n\n**Explicación:**\n\n1. **HTML:**\n   - Se incluye un `div` con la clase `loading-animation`.  Este `div` contendrá la animación de espera.\n   - Se incluye un `div` con id `chat-history` donde se mostrarán los mensajes del chat.\n\n2. **CSS:**\n   - Se define un estilo para la clase `loading-animation` que hace que sea un círculo que gira.\n   - Se usa la propiedad `animation` para aplicar la animación `spin` al `div`.\n\n3. **JavaScript:**\n   - Se usa `setTimeout` para simular un retraso en la respuesta del modelo.  En una aplicación real, esto se reemplazaría con el tiempo que realmente tarda el modelo en generar la respuesta.\n   - Dentro del primer `setTimeout`, se muestra la animación de espera (`document.querySelector('.loading-animation').style.display = 'block';`).\n   - Dentro del segundo `setTimeout` (que se ejecuta después del retraso simulado), se oculta la animación de espera (`document.querySelector('.loading-animation').style.display = 'none';`) y se agrega el siguiente mensaje del modelo al historial del chat.\n\n**Cómo usarlo:**\n\n1.  Copia el código HTML completo en un archivo `.html` (por ejemplo, `chat.html`).\n2.  Abre el archivo en tu navegador web.\n3.  El código simulará una animación de espera mientras se muestra el primer mensaje del chat.  Después de un retraso de 3 segundos, la animación desaparecerá y se mostrará el siguiente mensaje.\n\n**Consideraciones:**\n\n*   **Reemplaza la simulación de tiempo de espera:**  En una aplicación real, reemplaza los `setTimeout` con la lógica real para obtener la respuesta del modelo.\n*   **Personalización:**  Puedes personalizar la animación de espera cambiando el CSS.  Hay muchas animaciones de espera disponibles en línea.\n*   **Experiencia del usuario:**  Asegúrate de que la animación de espera no sea demasiado larga, ya que puede frustrar a los usuarios.  Intenta mantenerla entre 2 y 5 segundos.\n*   **Frameworks:** Si estás usando un framework como React, Angular o Vue, hay componentes de animación de espera disponibles que puedes usar.\n\nEste ejemplo proporciona una base para agregar una animación de espera a tu chat.  Puedes adaptarlo a tus necesidades específicas.\n",
+            "timestamp": 1754407580.185739
+        },
+        {
+            "sender": "user",
+            "text": "Pero no deberias porogramar, o si?",
+            "timestamp": 1754407680.0869708
+        },
+        {
+            "sender": "model",
+            "text": "No, no debería programar. Como modelo de lenguaje, mi función principal es generar texto en respuesta a las indicaciones que recibo. No tengo la capacidad de ejecutar código ni de interactuar directamente con sistemas externos para programar. \n\nLa respuesta que te proporcioné en el historial de chat es un ejemplo de código HTML, CSS y JavaScript que *simula* una animación de espera.  Lo hice para responder a tu solicitud de \"poner una animación de espera\".  Sin embargo, **yo mismo no estoy programando nada**. Simplemente te estoy mostrando un fragmento de código que puedes usar en un entorno web para lograr ese efecto.\n\nEn resumen:\n\n*   **No puedo programar en el sentido tradicional.**\n*   **Puedo generar código.**\n*   **El código que te mostré es un ejemplo de cómo se podría implementar una animación de espera en una página web.**\n\nEspero que esta aclaración sea útil.  Si tienes alguna otra pregunta, no dudes en preguntar.\n",
+            "timestamp": 1754407680.086986
+        }
+    ],
+    "data": {
+        "name": "Joel Escobar",
+        "age": 35,
+        "gender": "Masculino",
+        "height": 170,
+        "weight": 73,
+        "medicalHistory": "Hipotiroidismo, Dislipidemia, Depresión",
+        "medications": "",
+        "allergies": ""
+    }
+}
